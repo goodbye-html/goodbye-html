@@ -214,7 +214,7 @@ readonly class Evaluator
             }
         }
 
-        if (null !== $node->elseBlock) {
+        if ($node->elseBlock !== null) {
             return $this->eval($node->elseBlock, $env);
         }
 
