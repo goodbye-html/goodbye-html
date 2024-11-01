@@ -9,7 +9,7 @@
 
 A very simple package for separating PHP logic from HTML or any other text. It allows you to insert **variables**, **if/elseif/else statements**, **loops** and **ternary operators** into any text file and dynamically get parsed content of this file.
 
-- [📝 Release notes](https://github.com/goobye-html/goodbye-html/blob/main/docs/changelog.md)
+- [📝 Release notes](https://github.com/goobye-html/goodbye-html/blob/main/docs/CHANGELOG.md)
 - [✏️ BNF grammar](https://github.com/goobye-html/goodbye-html/blob/main/docs/goodbye-html.bnf)
 
 ## Supported PHP versions
