@@ -1,5 +1,8 @@
 # Release Notes
 
+## v2.9.7 (2024-11-01)
+- Updated badge in `README.md` file
+
 ## v2.9.6 (2024-11-01)
 - Updated `composer.json` file
 
