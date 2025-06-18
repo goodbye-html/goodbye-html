@@ -15,7 +15,7 @@ jobs:
     strategy:
       fail-fast: true
       matrix:
-        php_version: ['8.2', '8.3']
+        php_version: ['8.2', '8.3', '8.4']
 
     steps:
     - uses: actions/checkout@v2
