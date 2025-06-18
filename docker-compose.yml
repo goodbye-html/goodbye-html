@@ -1,0 +1,11 @@
+name: serhii-goodbye-html
+
+services:
+  app:
+    build:
+      context: .
+    image: serhii-goodbye-html
+    environment:
+      - TERM=xterm-256color
+    tty: true
+    stdin_open: true

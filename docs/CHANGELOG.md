@@ -1,5 +1,9 @@
 # Release Notes
 
+## v2.10.0 (2025-06-18)
+- Added Docker to the project
+- Added php 8.4 support
+
 ## v2.9.7 (2024-11-01)
 - Updated badge in `README.md` file
 

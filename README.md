@@ -344,3 +344,20 @@ You can assign values to variables inside your text files using curly braces. Fo
 ```bash
 $ composer require serhii/goodbye-html
 ```
+
+## Development
+### Without Docker
+You'll need to have Composer and PHP installed on your machine
+
+### With Docker
+#### Build an image
+To build an image, navigate to the root of project that contains `Dockerfile` and run this command:
+```bash
+docker compose build app
+```
+
+#### Run the container
+To run the container, navigate to the root of project that contains `Dockerfile` and run this command:
+```bash
+docker compose run --rm app
+```
