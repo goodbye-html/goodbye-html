@@ -5,6 +5,8 @@ services:
     build:
       context: .
     image: serhii-goodbye-html
+    volumes:
+      - .:/app
     environment:
       - TERM=xterm-256color
     tty: true
