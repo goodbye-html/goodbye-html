@@ -19,4 +19,4 @@ RUN composer install --no-interaction --prefer-dist --no-progress && \
 
 COPY . .
 
-ENTRYPOINT [ "bash" ]
+ENTRYPOINT ["bash"]

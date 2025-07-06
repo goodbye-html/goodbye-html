@@ -15,6 +15,7 @@ A very simple package for separating PHP logic from HTML or any other text. It a
 ## Supported PHP versions
 - ✅ 8.2
 - ✅ 8.3
+- ✅ 8.4
 
 ## What is it for?
 This package is useful when you need to separate PHP logic from HTML or any other text. For example if you need to send an email with some dynamic content, you can create a template file with HTML and insert variables, if/elseif/else statements, loops and ternary operators into it. Then you can pass this file to the parser and get parsed content of this file as a string. Then you can use this string as a content of your email.
@@ -342,22 +343,37 @@ You can assign values to variables inside your text files using curly braces. Fo
 ## Getting started
 
 ```bash
-$ composer require serhii/goodbye-html
+composer require serhii/goodbye-html
 ```
 
-## Development
-### Without Docker
-You'll need to have Composer and PHP installed on your machine
-
-### With Docker
-#### Build an image
-To build an image, navigate to the root of project that contains `Dockerfile` and run this command:
+## Contribute
+### With a Container Engine
+#### Build an Image
+To build an image, navigate to the root of project and run this Docker command:
 ```bash
-docker compose build app
+docker compose build
+```
+For Podman, run this:
+```bash
+podman-compose build
 ```
 
-#### Run the container
-To run the container, navigate to the root of project that contains `Dockerfile` and run this command:
+#### Run the Container
+To run the container, navigate to the root of project and run this Docker command:
 ```bash
 docker compose run --rm app
+```
+For Podman, run this:
+```bash
+podman-compose run --rm app
+```
+
+#### Destroy the Container
+You can cleanup after working on a project by destroying things like networks with this Docker command:
+```bash
+docker compose down
+```
+For Podman, run this:
+```bash
+podman-compose down
 ```
