@@ -7,7 +7,7 @@ services:
             dockerfile: Containerfile
         image: serhii-goodbye-html
         volumes:
-            - .:/app
+            - .:/app:z
         environment:
             - TERM=xterm-256color
         tty: true
