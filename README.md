@@ -16,6 +16,7 @@ A very simple package for separating PHP logic from HTML or any other text. It a
 - ✅ 8.2
 - ✅ 8.3
 - ✅ 8.4
+- ✅ 8.5
 
 ## What is it for?
 This package is useful when you need to separate PHP logic from HTML or any other text. For example if you need to send an email with some dynamic content, you can create a template file with HTML and insert variables, if/elseif/else statements, loops and ternary operators into it. Then you can pass this file to the parser and get parsed content of this file as a string. Then you can use this string as a content of your email.
