@@ -1,5 +1,8 @@
 # Release Notes
 
+## v2.11.0 (2025-11-27)
+- Added php 8.5 support
+
 ## v2.10.1 (2025-06-18)
 - Added volume to docker-compose.yml file
 
