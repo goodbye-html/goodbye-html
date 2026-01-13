@@ -2,9 +2,7 @@ name: serhii-goodbye-html
 
 services:
     app:
-        build:
-            context: .
-            dockerfile: Containerfile
+        build: .
         image: serhii-goodbye-html
         volumes:
             - .:/app:z
