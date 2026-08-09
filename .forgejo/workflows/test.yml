@@ -11,11 +11,12 @@ jobs:
     runs-on: burn
     strategy:
       matrix:
+        #php-version: [8.2, 8.3, 8.4, 8.5]
         php-version: [8.2]
 
     steps:
       - name: Install PHP
-        uses: https://codeberg.org/act/install-php@master
+        uses: https://codeberg.org/act/install-php@v1
         with:
           php-version: ${{ matrix.php-version }}
 
