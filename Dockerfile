@@ -9,14 +9,6 @@ RUN apt-get update && apt-get install -y \
 # Installing Composer binary
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
-WORKDIR /app
+WORKDIR /var/www/html
 
-# Copy composer files first for better cache usage
-COPY composer.json composer.lock* ./
-
-RUN composer install --no-interaction --prefer-dist --no-progress && \
-    composer clear-cache
-
-COPY . .
-
-ENTRYPOINT ["bash"]
+CMD ["bash"]
