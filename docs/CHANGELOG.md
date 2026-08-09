@@ -1,5 +1,11 @@
 # Release Notes
 
+## v2.12.0 (2026-08-09)
+- Switch from GitHub to Codeberg
+
+## v2.11.0 (2025-11-27)
+- Added php 8.5 support
+
 ## v2.11.0 (2025-11-27)
 - Added php 8.5 support
 
