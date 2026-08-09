@@ -17,7 +17,7 @@ jobs:
       - name: Install PHP
         uses: act/install-php
         with:
-          php-version: {{ matrix.php-version }}
+          php-version: ${{ matrix.php-version }}
 
       - name: Checkout
         uses: actions/checkout@v4
