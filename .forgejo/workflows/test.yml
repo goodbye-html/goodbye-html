@@ -15,7 +15,7 @@ jobs:
 
     steps:
       - name: Install PHP
-        uses: act/install-php@master
+        uses: https://codeberg.org/act/install-php@master
         with:
           php-version: ${{ matrix.php-version }}
 
