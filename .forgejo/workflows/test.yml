@@ -15,7 +15,7 @@ jobs:
 
     steps:
       - name: Install PHP
-        uses: act/install-php
+        uses: act/install-php@master
         with:
           php-version: ${{ matrix.php-version }}
 
