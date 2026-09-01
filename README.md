@@ -3,8 +3,6 @@
 <p align="center">
     <a href="https://packagist.org/packages/serhii/goodbye-html"><img src="https://poser.pugx.org/serhii/goodbye-html/d/total.svg" alt="Total Downloads"></a>
     <a href="https://packagist.org/packages/serhii/goodbye-html"><img src="https://poser.pugx.org/serhii/goodbye-html/v/stable.svg" alt="Latest Stable Version"></a>
-    <a href="https://codeberg.org/goodbye-html/goodbye-html/src/branch/master/LICENSE.md"><img alt="Codeberg" src="https://codeberg.org/goodbye-html/goodbye-html/src/branch/master/LICENSE.md"></a>
-</p>
 
 A very simple package for separating PHP logic from HTML or any other text. It allows you to insert **variables**, **if/elseif/else statements**, **loops** and **ternary operators** into any text file and dynamically get parsed content of this file.
 
