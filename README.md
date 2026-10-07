@@ -358,48 +358,24 @@ composer require serhii/goodbye-html
 
 #### Build an Image
 
-To build an image, navigate to the root of project and run this command.
-
-With Podman:
+To build an image, navigate to the root of project and run this:
 
 ```bash
 podman-compose build
 ```
 
-With Docker:
-
-```bash
-docker compose build
-```
-
 #### Run the Container
 
-To run the container, navigate to the root of project and run this command.
-
-With Podman:
+To run the container, navigate to the root of project and run this:
 
 ```bash
 podman-compose run --rm app
 ```
 
-With Docker:
-
-```bash
-docker compose run --rm app
-```
-
 #### Destroy the Container
 
-You can cleanup after working on a project by destroying things like networks with this command.
-
-With Podman:
+You can cleanup after working on a project by destroying things like networks with this:
 
 ```bash
 podman-compose down
-```
-
-With Docker:
-
-```bash
-docker compose down
 ```
