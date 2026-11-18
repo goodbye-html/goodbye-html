@@ -1,7 +1,7 @@
 {
     "name": "serhii/goodbye-html",
     "description": "Simple html parser for parsing html files into a string",
-    "homepage": "https://codeberg.org/goodbye-html/goodbye-html",
+    "homepage": "https://github.com/goodbye-html/goodbye-html",
     "keywords": ["parser", "library", "html"],
     "type": "library",
     "license": "MIT",

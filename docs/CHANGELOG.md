@@ -1,5 +1,9 @@
 # Release Notes
 
+## v2.12.1 (2026-11-18)
+
+- Switch from Codeberg back to GitHub
+
 ## v2.12.0 (2026-08-09)
 
 - Switch from GitHub to Codeberg
